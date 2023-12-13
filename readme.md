@@ -1,7 +1,10 @@
 # FR THIS TIME
-I have tried too many times to build a personal website. <BR>
+I have tried too many times to build a personal website. 
+
 I did with only HTML and CSS once (twinkletoes5.com) => Not Interactive, not responsive
+
 I tried using MERN Stack, NextJS, React (The previous try) => Too Complicated, Don't know what I was doing.
+
 Now, for real this time, I am just going to use Vanilla JavaScript, with HTML and CSS to make a simple website that is responsive and interactive
 
 ~~tHiRD tiMeS A cHaRm???~~ 
