@@ -4,18 +4,31 @@
   <meta charset="UTF-8">
   <title>Sean Yan</title>
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./scripts/index.js"></script>
+  <link rel="stylesheet" href="./css/scene.css">
+  <script src="./scripts/index.js" defer></script>
 </head>
 <body>
-  <div class="matrix-background"></div>
-  <div class="terminal">
-    <h1>Sean Yan</h1>
-    <h2>CS @ <a href="https://ubc.ca">UBC</a></h2>
-    <nav>
-      <a href="#about">> About Me</a>
-      <a href="#projects">> Projects</a>
-      <a href="#contact">> Contact</a>
-    </nav>
+
+  <!-- scene Home -->
+  <div id="sceneHome" class="scene-enable">
+    <div class="matrix-background"></div>
+    <div class="terminal">
+      <h1>Sean Yan</h1>
+      <h2>CS @ <a href="https://ubc.ca">UBC</a></h2>
+      <nav>
+        <a id="aboutMeButton" href="#">> About Me</a>
+        <a id="projectsButton" href="#">> Projects</a>
+        <a id="contactButton" href="#">> Contact</a>
+      </nav>
+    </div>
   </div>
+
+  <!-- scene About Me -->
+  <div id="sceneAboutMe" class="scene-disable"> 
+    <h1>test!</h1>
+  </div>
+
+
+
 </body>
 </html>
