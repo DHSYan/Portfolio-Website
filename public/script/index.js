@@ -1,7 +1,7 @@
 // Navbar scroll effect
-setTimeout(() => {
-  window.location.href = "#about";
-}, 3000);
+// setTimeout(() => {
+//   window.location.href = "#about";
+// }, 3000);
 
 window.addEventListener('scroll', function() {
   const navbar = document.getElementById('navbar');
