@@ -1,5 +1,31 @@
 {
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHSYan/Portfolio-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DHSYan/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/DHSYan/Portfolio-Website#readme",
+  "description": "",
   "devDependencies": {
-    "typescript": "^5.8.3"
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "vite": "^7.0.6"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "express": "^5.1.0",
+    "vite-plugin-vue": "^0.0.1",
+    "vue": "^3.5.18"
   }
 }
